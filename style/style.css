@@ -1,11 +1,87 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Leckerli One', cursive;
+font-family: 'Cambay', sans-serif;
+font-family: 'Coustard', serif;
+font-family: 'Work Sans', sans-serif;
+*/
+.font-leckerli-one {
+    font-family: 'Leckerli One', cursive;
+}
+
+.font-cabmay {
+    font-family: 'Cambay', sans-serif;
+}
+
+.font-coustard {
+    font-family: 'Coustard', serif;
+}
+
+.font-worksans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .header {
     background-image: url("../images/header_man_photo.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+.btn-buy {
+    border-radius: 20px;
+    border: 2px solid #ffff00;
+    box-shadow: 0 10px 30px rgba(255, 255, 0, 0.2);
+    /* Style for "Buy it Now" */
+    color: #ffff00;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.albedo {
+    /* Style for "albedo" */
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -2.88px;
+    padding-left: 10px;
+}
+
+.text-nav {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.greeting p:first-child {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.greeting h1 {
+    font-family: "Montserrat - Extra Bold",sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.greeting h1 span {
+    color: #0081ff;
+}
+
+
+.btn-about-me {
+    box-shadow: 0 10px 30px rgba(146, 146, 146, 0.3);
+    border-radius: 30px;
+    background-color: #2b2b2b;
 }
