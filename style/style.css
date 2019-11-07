@@ -28,12 +28,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+.intro {
     background-image: url("../images/header_man_photo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*height: 100vh;*/
+    min-height: 100vh;
+    background-color: #000000;
 }
 
 .btn-buy {
@@ -70,7 +71,7 @@ body {
 }
 
 .greeting h1 {
-    font-family: "Montserrat - Extra Bold",sans-serif;
+    font-family: "Montserrat - Extra Bold", sans-serif;
     font-size: 60px;
     font-weight: 400;
 }
@@ -94,3 +95,103 @@ body {
     font-weight: 700;
     line-height: 36px;
 }
+
+/**/
+
+
+.about {
+    background-color: #0081ff;
+    color: #ffffff;
+}
+
+.services {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/**/
+
+.portfolio .item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .item > div {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.portfolio .item:hover > div {
+    opacity: 1;
+    transition: all 300ms linear;
+}
+
+.portfolio .item > div i {
+    color: #8799a3;
+    cursor: pointer;
+}
+
+.portfolio .item > div i:hover {
+    color: #ffffff;
+
+}
+
+.portfolio .row > div:first-child .item {
+    min-width: 320px;
+    min-height: 300px;
+}
+
+.portfolio .row > div:last-child {
+    /* max-height: 50vw;*/
+}
+
+.portfolio .row > div:last-child .item {
+    min-width: 250px;
+    min-height: 320px;
+}
+
+.portfolio .row > div:last-child .item:last-child {
+    height: 100%;
+}
+
+.project-01 {
+    background-image: url("../images/project-01.jpg");
+}
+
+.project-02 {
+    background-image: url("../images/project-02.jpg");
+}
+
+.project-03 {
+    background-image: url("../images/project03.jpg");
+}
+
+.project-04 {
+    background-image: url("../images/project-04.jpg");
+}
+
+.project-05 {
+    background-image: url("../images/project-05.jpg");
+}
+
+.project-06 {
+    background-image: url("../images/project-06.jpg");
+}
+
+
+/**/
+.clients {
+    background-image: url("../images/background-customers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.customer {
+    width: 300px;
+}
+
