@@ -26,11 +26,11 @@
             </h5>
             <nav class="my-2 my-md-0 mr-md-3 text-nav text-center">
                 <a class="p-2 text-white" href="#">Intro</a>
-                <a class="p-2 text-white" href="#">About me</a>
-                <a class="p-2 text-white" href="#">Portfolio</a>
-                <a class="p-2 text-white" href="#">Clients</a>
-                <a class="p-2 text-white" href="#">Blog</a>
-                <a class="p-2 text-white" href="#">Contacts</a>
+                <a class="p-2 text-white" href="#aboutme">About me</a>
+                <a class="p-2 text-white" href="#portfolio">Portfolio</a>
+                <a class="p-2 text-white" href="#clients">Clients</a>
+                <a class="p-2 text-white" href="#blog">Blog</a>
+                <a class="p-2 text-white" href="#contacts">Contacts</a>
             </nav>
             <a class="btn btn-outline-warning ml-md-auto bg-transparent btn-buy" href="#">Buy it Now!</a>
         </div>
@@ -52,7 +52,7 @@
 <main>
     <article class="about py-5">
         <div class="container">
-            <h2>About me...</h2>
+            <h2 id="aboutme">About me...</h2>
             <section class="row mb-2">
                 <div class="col-md-6">
                     <p class="quote">
@@ -130,7 +130,7 @@
         </div>
 
         <div class="container">
-            <section class="row mt-3">
+            <section class="row mt-3 follow">
                 <div class="col-md-4 follow-me">If you like my works Follow me:</div>
                 <div class="col-md-8 social-links">
                     <i class="px-2 fa fa-facebook-f"></i>
@@ -151,9 +151,9 @@
 
     <article>
         <section class="container">
-            <div class="row">
+            <div class="row title-portfolio">
                 <div class="col-md-6 portfolio-title">
-                    <h2>Potfolio...</h2>
+                    <h2 id="portfolio">Potfolio...</h2>
                     <p>I Make Beautiful Things!</p>
                 </div>
                 <div class="col-md-6">
@@ -202,23 +202,24 @@
 
     <article class="clients">
         <section class="container">
-            <h2 class="text-center">Clients...</h2>
+            <h2 id="clients" class="text-center">Clients...</h2>
             <div class="row">
                 <div class="col text-center">
-                    <p>What Customers Say:</p>
+                    <p class="pre-quote">What Customers Say:</p>
                 </div>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="text-center col-sm-6 mx-auto">Investigationes demonstraverunt lectores legere me
+                        <div class="citation text-center col-sm-6 mx-auto">Investigationes demonstraverunt lectores
+                            legere me
                             lius quod ii legunt saepius nunc putamus
                             parum claram.
                         </div>
                         <div class="mx-auto d-block customer">
-                            <img src="images/avatar.png" class="d-block w float-left" alt="...">
-                            <p class="mb-0">Christina Smith</p>
-                            <p class="">Marketing Envato Pty Ltd.</p>
+                            <img src="images/avatar.png" class="d-block w float-left pr-3" alt="avatar">
+                            <p class="name-of-customer mb-0">Christina Smith</p>
+                            <p class="position">Marketing Envato Pty Ltd.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -274,26 +275,58 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2></h2>
-                    <h3></h3>
-                    <p></p>
-                    <div></div>
+                    <h2 id="blog">Blog...</h2>
+                    <h3>Do Not Miss <br>
+                        the Useful Articles</h3>
+                    <p>Mirum est notare quam littera gothica,<br>
+                        quam nunc parum claram...</p>
+                    <div>
+                        <h5>6 October</h5>
+                        <q>“Eodem modo typi, qui nunc nobis videntur parum clari, sollemnes parum”</q>
+                        <cite>Johnathan Miller</cite>
+                    </div>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <h5>9 October</h5>
+                    <h4>Gallery Post Format</h4>
+                    <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+                        etiam processus dynamicus.
+                    </p>
+                    <a class="btn btn-outline-warning ml-md-auto bg-transparenty" href="#">Read More</a>
+                </div>
             </div>
+
             <div class="row">
                 <div class="col-md-6">
-
+                    <div class="row">
+                        <div class="col-md blog-hand">
+                            <h5>3 September</h5>
+                            <h4>Standard Post Format</h4>
+                        </div>
+                        <div class="col-md blog-video">
+                            <h5>20 September</h5>
+                            <h4>Video Post Format</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="col-md-8 blog-format">
+                        <h5>23 June</h5>
+                        <h4>Standard Post Format without Preview Img</h4>
+                        <p>Qui nunc nobis videntur parum clari, sollemnes legere.Standard Post Format without Preview
+                            Img</p>
+                    </div>
+                    <div class="col-md-4 blog-view">
+                        View All Posts
+                    </div>
+                </div>
             </div>
         </div>
     </article>
 
 
 </main>
-<footer>
-
+<footer id="contacts">
 </footer>
 
 

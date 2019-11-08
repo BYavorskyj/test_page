@@ -126,6 +126,10 @@ h2 {
     font-family: 'Cambay', sans-serif;
 }
 
+.follow {
+    padding-top: 30px;
+}
+
 .follow-me {
     font-family: 'Cambay', sans-serif;
     font-size: 20px;
@@ -143,6 +147,11 @@ h2 {
 }
 
 /*porfolio*/
+
+.title-portfolio {
+    padding: 35px;
+}
+
 .portfolio-title h2 {
     color: #8799a3;
 }
@@ -232,7 +241,7 @@ h2 {
 }
 
 
-/**/
+/*clients */
 .clients {
     background-image: url("../images/background-customers.jpg");
     background-repeat: no-repeat;
@@ -242,7 +251,49 @@ h2 {
     background-color: #000000;
 }
 
+.clients h2 {
+    padding-top: 70px;
+}
+
+.pre-quote {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.citation {
+    font-family: 'Coustard', serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
 .customer {
     width: 300px;
 }
+
+.customer img {
+
+}
+
+.name-of-customer {
+    color: #ffff00;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.position {
+    opacity: 0.3;
+    color: #ffffff;
+    font-family: 'Cambay', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*blog*/
 
