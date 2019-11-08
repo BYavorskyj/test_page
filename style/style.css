@@ -5,22 +5,6 @@ font-family: 'Cambay', sans-serif;
 font-family: 'Coustard', serif;
 font-family: 'Work Sans', sans-serif;
 */
-.font-leckerli-one {
-    font-family: 'Leckerli One', cursive;
-}
-
-.font-cabmay {
-    font-family: 'Cambay', sans-serif;
-}
-
-.font-coustard {
-    font-family: 'Coustard', serif;
-}
-
-.font-worksans {
-    font-family: 'Work Sans', sans-serif;
-}
-
 
 body {
     margin: 0;
@@ -65,6 +49,13 @@ body {
     font-weight: 500;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Leckerli One', cursive;
+}
+
+
 .greeting p:first-child {
     font-size: 36px;
     font-weight: 400;
@@ -96,7 +87,7 @@ body {
     line-height: 36px;
 }
 
-/**/
+/*About me*/
 
 
 .about {
@@ -104,11 +95,43 @@ body {
     color: #ffffff;
 }
 
+.quote {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quotation {
+    font-family: 'Cambay', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .services {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.services h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
 
+.services p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Cambay', sans-serif;
+}
+
+.follow-me {
+    font-family: 'Cambay', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /**/
 
 .portfolio .item {
