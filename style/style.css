@@ -133,7 +133,11 @@ h2 {
     line-height: 30px;
 }
 
-.follow-me li {
+.social-links i {
+    cursor: pointer;
+}
+.social-links i:hover {
+    background-color: #4da7ff;
 }
 /**/
 
