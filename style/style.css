@@ -297,3 +297,18 @@ h2 {
 
 /*blog*/
 
+.blog-post-1 {
+    background-color: #007efa;
+    color: #ffffff;
+    box-shadow: 0 30px 160px rgba(0, 126, 250, 0.3);
+}
+
+.blog-post-2 {
+    background-image: url("../images/photo_blog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 30px 160px rgba(0, 0, 0, 0.15);
+}
